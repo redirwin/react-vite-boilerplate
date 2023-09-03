@@ -6,7 +6,7 @@
 2. [Getting Started](#getting-started)
 3. [Folder Structure](#folder-structure)
 4. [Usage Guidelines](#usage-guidelines)
-5. [npm Packages](#npm-packages)
+5. [npm Packages](#3rd-party-npm-packages)
 6. [Scripts Directory](#scripts-directory)
 
 ---
