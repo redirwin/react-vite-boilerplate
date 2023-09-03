@@ -102,11 +102,11 @@ You're all set for development! The server reloads automatically upon file chang
 5. Use PascalCase for all names. For example, `MyComponent.jsx` and `MyComponent.module.scss`.
 6. When building scss modules, the main class name should also use PascalCase. For example, `.MyComponent { ... }`.
 
-**Feel free to change, remove, or add to any out-of-the-box components as your project dictates.**
+**Feel free to change, remove, or add to any out-of-the-box components within the primary folders, but DO NOT change the primary folder names (layout, modules, templates).**
 
 ### Adding Global Styles
 
 1. Navigate to `src/global/styles/`.
 2. Choose the appropriate subfolder and update the `.scss` files as needed.
 
-**For global styles, use the existing files and do not change the file names.**
+**For global styles, use the existing files and DO NOT change the file names, but change the styles as the project dictates.**
