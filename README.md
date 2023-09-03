@@ -52,7 +52,7 @@ Project Root
                         [Base Files]
             App.jsx                     # Root React component
             main.jsx                    # Initializes and renders React app
-            main.scss                   # Main SCSS file (imports all other SCSS files)
+            main.scss                   # Main SCSS file (imports all global SCSS files)
 ```
 
 ## Getting Started
