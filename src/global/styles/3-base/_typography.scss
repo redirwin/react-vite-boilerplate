@@ -1,0 +1,144 @@
+@mixin apply-vertical-rhythm($multiplier: 1) {
+    margin-bottom: ($base-line-height * 1rem) * $multiplier; // 1rem = 10px
+    line-height: $base-line-height;
+}
+
+html {
+    font-size: $base-font-size;
+}
+
+body {
+    line-height: $base-line-height;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    @include apply-vertical-rhythm(1.5);
+}
+
+h2 {
+    font-size: 2.0rem;
+    @include apply-vertical-rhythm(1.2);
+}
+
+h3 {
+    font-size: 1.8rem;
+    @include apply-vertical-rhythm(1.1);
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote {
+    @include apply-vertical-rhythm;
+}
+
+form {
+
+    label,
+    input,
+    select,
+    textarea {
+        @include apply-vertical-rhythm(0.5);
+    }
+}
+
+// Responsive adjustments
+@media (min-width: $breakpoint-small) {
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: $breakpoint-mobile) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+    }
+}
+
+@media (min-width: $breakpoint-laptop) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    h1 {
+        font-size: 3.4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+// Fonts
+
+// Gotham Light
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Light.woff2') format('woff2'),
+        url('path/to/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+// Gotham Book
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Book.woff2') format('woff2'),
+        url('path/to/Gotham-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// Gotham Medium
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Medium.woff2') format('woff2'),
+        url('path/to/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+// Gotham Bold
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Bold.woff2') format('woff2'),
+        url('path/to/Gotham-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// Gotham Italic (you can have different styles like italic as well)
+@font-face {
+    font-family: 'Gotham';
+    src: url('path/to/Gotham-Italic.woff2') format('woff2'),
+        url('path/to/Gotham-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

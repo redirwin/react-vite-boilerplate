@@ -1,0 +1,30 @@
+// *********************
+// Color Variables
+// *********************
+$color-primary: #f9f9f9;
+$color-secondary: #f9f9f9;
+$color-tertiary: #f9f9f9;
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #f9f9f9;
+$color-gray-light: #f9f9f9;
+$color-gray-dark: #f9f9f9;
+
+
+// *********************
+// Breakpoints
+// *********************
+$breakpoint-small: 320px;
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-laptop: 1024px;
+$breakpoint-desktop: 1200px;
+
+// *********************
+// Font Variables
+// *********************
+$base-font-size: 62.5%; // 1rem = 10px
+$base-line-height: 1.5; // 15px line height (1.5 * 10)
+
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Roboto', sans-serif;

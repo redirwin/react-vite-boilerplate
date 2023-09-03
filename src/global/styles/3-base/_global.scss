@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: $color-white;
+}
+
+.container {
+    //....
+}
+
+a:link,
+a:visited {
+    text-decoration: underline;
+    color: $color-tertiary;
+    text-decoration: none;
+    @include transition15;
+}
+
+a:hover,
+a:active {
+    color: $color-primary;
+}

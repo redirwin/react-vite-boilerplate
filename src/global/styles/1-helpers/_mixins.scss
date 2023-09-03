@@ -1,0 +1,9 @@
+@mixin fullImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin transition15 {
+    transition: all 0.15s ease-out 0s;
+}
