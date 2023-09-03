@@ -6,7 +6,8 @@
 2. [Getting Started](#getting-started)
 3. [Folder Structure](#folder-structure)
 4. [Usage Guidelines](#usage-guidelines)
-5. [Scripts and NPM Packages](#additional-resources)
+5. [NPM Packages](#npm-packages)
+6. [Scripts Directory](#scripts-directory)
 
 ---
 
@@ -112,9 +113,7 @@ Project Root
 
 **For global styles, use the existing files and DO NOT change the file names, but change the styles as the project dictates.**
 
-## Additional Resources
-
-### 3rd Party npm Packages
+## 3rd Party npm Packages
 
 We've vetted certain npm packages for quality, ease of use, and long-term support. You are encouraged to use these packages when they fit your needs. For more information about npm and how to manage npm packages, you can read the [npm documentation](https://docs.npmjs.com/about-npm).
 
@@ -126,7 +125,7 @@ The list of approved packages will be continuously updated:
 - [`react-query`](https://www.npmjs.com/package/@tanstack/react-query) for data fetching, caching, and state management.
 - [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) for routing.
 
-### Scripts Directory
+## Scripts Directory
 
 The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript that doesn't fit into the React component structure or doesn't come as an NPM package. For example, if you need to add a custom script to the `index.html` file, you can add it to `scripts/index.js` and import it in `index.html`.
 
