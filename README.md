@@ -6,6 +6,7 @@
 2. [Folder Structure](#folder-structure)
 3. [Getting Started](#getting-started)
 4. [Usage Guidelines](#usage-guidelines)
+5. [Scripts and NPM Packages](#additional-resources)
 
 ---
 
@@ -43,8 +44,6 @@ Project Root
                     [More Template Components]
             global/                     # Global resources
                 scripts/                # Global JS scripts
-                    Vendors/            # 3rd-party vendor scripts
-                        [Vendor Files]
                 styles/                 # SCSS styles
                     1 - Helpers/          # Helper styles (variables, functions, mixins)
                         [Helper Files]
@@ -112,3 +111,21 @@ You're all set for development! The server reloads automatically upon file chang
 2. Choose the appropriate subfolder and update the `.scss` files as needed.
 
 **For global styles, use the existing files and DO NOT change the file names, but change the styles as the project dictates.**
+
+## Additional Resources
+
+### Scripts Directory
+
+The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript scripts that don't come as npm packages. If you have a script that needs to be globally available, place it here.
+
+### Approved 3rd Party npm Packages
+
+We've vetted certain npm packages for quality, ease of use, and long-term support. You are encouraged to use these packages when they fit your needs. For more information about npm and how to manage npm packages, you can read the [npm documentation](https://docs.npmjs.com/about-npm).
+
+The list of approved packages will be continuously updated:
+
+- [`axios`](https://www.npmjs.com/package/axios) for HTTP requests.
+- [`formik`](https://www.npmjs.com/package/formik) for form handling.
+- [`yup`](https://www.npmjs.com/package/yup) for form validation.
+- [`react-query`](https://www.npmjs.com/package/react-query) for data fetching, caching, and state management.
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) for routing.
