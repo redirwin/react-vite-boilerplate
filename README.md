@@ -43,6 +43,8 @@ Project Root
                     [More Template Components]
             global/                     # Global resources
                 scripts/                # Global JS scripts
+                    Vendors/            # 3rd-party vendor scripts
+                        [Vendor Files]
                 styles/                 # SCSS styles
                     1 - Helpers/          # Helper styles (variables, functions, mixins)
                         [Helper Files]
