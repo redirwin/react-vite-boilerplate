@@ -26,7 +26,7 @@ Welcome to the README for our Vite-React boilerplate. We use an opinionated stru
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/redirwin/vite-react-boilerplate.git my-new-app
+   git clone https://github.com/redirwin/react-vite-boilerplate.git my-new-app
    ```
 
    Navigate to the project's directory:
