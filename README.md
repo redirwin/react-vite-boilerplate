@@ -59,7 +59,7 @@ Project Root
 
 ### Pre-requisites
 
-- Node.js and npm installed on your system.
+- Vite, Node.js, and npm installed on your system.
 
 1. **Clone the Repository**:
 
