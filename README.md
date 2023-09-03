@@ -1,4 +1,4 @@
-# Project Name
+# React Boilerplate with Vite
 
 ## Table of Contents
 
@@ -109,4 +109,4 @@ You're all set for development! The server reloads automatically upon file chang
 1. Navigate to `src/global/styles/`.
 2. Choose the appropriate subfolder and update the `.scss` files as needed.
 
-**For global styles, use the existing files and \***do not change the file names**\*.**
+**For global styles, use the existing files and do not change the file names.**
