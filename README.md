@@ -3,16 +3,53 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Folder Structure](#folder-structure)
-3. [Getting Started](#getting-started)
-4. [Usage Guidelines](#usage-guidelines)
-5. [Scripts and NPM Packages](#additional-resources)
+2. [Getting Started](#getting-started)
+3. [Folder Structure](#folder-structure)
+4. [File Structure](file-structure.txt)
+5. [Usage Guidelines](#usage-guidelines)
+6. [Scripts and NPM Packages](#additional-resources)
 
 ---
 
 ## Introduction
 
 Welcome to the README for our Vite-React boilerplate. We use an opinionated structure that aims for maintainability, ease of navigation, and adheres to best practices in both React and SCSS. It serves as a quick starting point for new projects.
+
+---
+
+## Getting Started
+
+### Pre-requisites
+
+- Vite, Node.js, and npm installed on your system.
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-username/vite-react-boilerplate.git my-new-app
+   ```
+
+   Navigate to the project's directory:
+
+   ```bash
+   cd my-new-app
+   ```
+
+2. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Personalize**: Update the `package.json` and README to your project's specifics.
+
+4. **Run the Project**:
+
+   ```bash
+   npm run dev
+   ```
+
+You're all set for development! The server reloads automatically upon file changes.
 
 ---
 
@@ -55,42 +92,6 @@ Project Root
             main.jsx                    # Initializes and renders React app
             main.scss                   # Main SCSS file (imports all global SCSS files)
 ```
-
-## Getting Started
-
-### Pre-requisites
-
-- Vite, Node.js, and npm installed on your system.
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/your-username/vite-react-boilerplate.git my-new-app
-   ```
-
-   Navigate to the project's directory:
-
-   ```bash
-   cd my-new-app
-   ```
-
-2. **Install Dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-3. **Personalize**: Update the `package.json` and README to your project's specifics.
-
-4. **Run the Project**:
-
-   ```bash
-   npm run dev
-   ```
-
-You're all set for development! The server reloads automatically upon file changes.
-
----
 
 ## Usage Guidelines
 
