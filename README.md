@@ -6,7 +6,7 @@
 2. [Getting Started](#getting-started)
 3. [Folder Structure](#folder-structure)
 4. [Usage Guidelines](#usage-guidelines)
-5. [NPM Packages](#npm-packages)
+5. [npm Packages](#npm-packages)
 6. [Scripts Directory](#scripts-directory)
 
 ---
@@ -113,7 +113,7 @@ Project Root
 
 **For global styles, use the existing files and DO NOT change the file names, but change the styles as the project dictates.**
 
-## 3rd Party npm Packages
+## 3rd-party npm Packages
 
 We've vetted certain npm packages for quality, ease of use, and long-term support. You are encouraged to use these packages when they fit your needs. For more information about npm and how to manage npm packages, you can read the [npm documentation](https://docs.npmjs.com/about-npm).
 
