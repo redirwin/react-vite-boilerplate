@@ -128,4 +128,6 @@ The list of approved packages will be continuously updated:
 
 ### Scripts Directory
 
-The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript scripts that don't come as npm packages. If you have a script that needs to be globally available, place it here.
+The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript that doesn't fit into the React component structure or doesn't come as an NPM package. For example, if you need to add a custom script to the `index.html` file, you can add it to `scripts/index.js` and import it in `index.html`.
+
+**This should be used sparingly.**
