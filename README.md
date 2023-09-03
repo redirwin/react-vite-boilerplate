@@ -114,11 +114,7 @@ You're all set for development! The server reloads automatically upon file chang
 
 ## Additional Resources
 
-### Scripts Directory
-
-The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript scripts that don't come as npm packages. If you have a script that needs to be globally available, place it here.
-
-### Approved 3rd Party npm Packages
+### 3rd Party npm Packages
 
 We've vetted certain npm packages for quality, ease of use, and long-term support. You are encouraged to use these packages when they fit your needs. For more information about npm and how to manage npm packages, you can read the [npm documentation](https://docs.npmjs.com/about-npm).
 
@@ -129,3 +125,7 @@ The list of approved packages will be continuously updated:
 - [`yup`](https://www.npmjs.com/package/yup) for form validation.
 - [`tanstack-query`](https://www.npmjs.com/package/@tanstack/react-query) for data fetching, caching, and state management.
 - [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) for routing.
+
+### Scripts Directory
+
+The `scripts` folder inside the `src/global/` directory is intended for extra JavaScript scripts that don't come as npm packages. If you have a script that needs to be globally available, place it here.
