@@ -123,7 +123,7 @@ The list of approved packages will be continuously updated:
 - [`axios`](https://www.npmjs.com/package/axios) for HTTP requests.
 - [`formik`](https://www.npmjs.com/package/formik) for form handling.
 - [`yup`](https://www.npmjs.com/package/yup) for form validation.
-- [`tanstack-query`](https://www.npmjs.com/package/@tanstack/react-query) for data fetching, caching, and state management.
+- [`react-query`](https://www.npmjs.com/package/@tanstack/react-query) for data fetching, caching, and state management.
 - [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) for routing.
 
 ### Scripts Directory
